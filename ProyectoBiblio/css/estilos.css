@@ -1,0 +1,164 @@
+@media(max-width: 768px){
+    .algo {
+		display: none;
+	}
+}
+
+@media(min-width: 769px){
+	.ml-xd{
+		margin-left: 3rem !important;
+	}
+}
+
+#navegacion{
+
+}
+
+#escudin{
+	display: absolute;
+	top: 15px;
+}
+
+.enlace.active, .enlace:hover{
+	color: #3d3d3d;
+}
+
+.bg-lightxd {
+  background-color: rgba(248, 249, 250, 0.5) !important;
+}
+
+.grande{
+  font-size: 20px;
+}
+
+.pequeño{
+
+}
+
+.Egrande{
+  height: 60px;
+  width: 45px;
+}
+
+.Epequeño{
+  height: 40px;
+  width: 30px;
+}
+
+.Ngrande{
+  height: 85px;
+}
+
+header,nav, a, img, li{
+  transition: all 0.25s;
+  -moz-transition: all 0.25s; /* Firefox 4 */
+  -webkit-transition: all 0.25s; /* Safari and Chrome */
+  -o-transition: all 0.25s; /* Opera */
+}
+
+tr{
+	text-align: center;
+}
+
+#fondo{
+	background-color: #a3c2c2;
+}
+/*Contacto**********************************************/
+
+
+.contacto{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.contacto .socialM
+{
+  list-style: none;
+  float:left;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  color: #262626;
+  font-size: 50px;
+  z-index: 1;
+  transition: .5s ease-in-out;
+}
+
+.contacto .socialM:before
+{
+ content: '';
+ width:100%;
+ height:100%;
+ position: absolute;
+ top:0;
+ left:-100%;
+ background: #ccc;
+ z-index: -1;
+ border-radius: 50%;
+ transform: scale(0);
+ transition: .3s ease-in-out;
+}
+
+.contacto .socialM:after{
+
+  content:'';
+  width:50%;
+  height:100%;
+  position: absolute;
+  right: -100%;
+  top:0;
+  background: rgba(255,255,255,.3);
+  transition: .5s ease-in-out;
+
+}
+
+.contacto .socialM:hover:before
+{
+  left: 0;
+  transform: scale(.9);
+}
+
+.contacto .socialM:hover:after
+{
+  right: 0%;
+  
+}
+.contacto .socialM:nth-child(1):before
+{
+
+  background: #3b5999;
+}
+.contacto .socialM:nth-child(2):before
+{
+
+  background: #55acee;
+}
+.contacto .socialM:nth-child(3):before
+{
+
+  background: #dd4b39;
+}
+.contacto .socialM:nth-child(4):before
+{
+
+  background: #34465d;
+}
+
+.contacto .socialM .fa
+{
+  transition: .5s ease-in-out;
+}
+.contacto .socialM:hover .fa
+{
+ color: #fff;
+}
